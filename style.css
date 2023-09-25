@@ -1,0 +1,346 @@
+body{
+    font-family: sans-serif;
+}
+
+header img{
+    width: 40%;
+    height: 40%;
+}
+
+header ul{
+    justify-content: space-between;
+}
+
+.titre{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.titre span{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.titre::after{
+    content: '';
+    height: 5px;
+    background-color: #52BCA8;
+    width: 7%;
+    display: block;
+    margin-top: 1%;
+}
+
+header #navbarSupportedContent button{
+    background-color: #52BCA8;
+    border: none;
+}
+
+#carouselExampleAutoplaying .carousel-indicators .active {
+    background-color: #52BCA8;
+    width: 50px;
+}
+
+#carouselExampleAutoplaying .carousel-indicators button {
+    height: 10px;
+    width: 25px;
+}
+
+/*--------------------------------- Section 1 ---------------------------------*/
+
+#section1{
+    background: linear-gradient(to right, #52BCA8, #026A5B);
+    color: white;
+}
+
+#section1 h1{
+    font-size: 76px;
+    font-weight: bold;
+    margin-top: 10%;
+    width: 100%
+}
+
+#section1 img{
+    width: 100%;
+    height: 87%;
+}
+
+/*--------------------------------- Section 2 ---------------------------------*/
+
+#section2 p{
+    font-size: 18px;
+    margin-top: 10%;
+    line-height: 35px;
+    color: #00000096;
+}
+
+
+/*--------------------------------- Section 3 ---------------------------------*/
+
+#section3 .chiffre1 h4{
+    font-size: 60px;
+
+}
+
+#section3 .chiffre{
+    padding: 5%;
+    margin-bottom: 5%;
+}
+
+#section3 .chiffre1 h4 .red{
+    font-weight: normal;
+    color: red;
+}
+
+#section3 .chiffre1:hover{
+    box-shadow: 0px 0px 10px red;
+    margin-bottom: 5%;
+}
+
+
+
+#section3 .chiffre2 h4{
+    font-size: 60px;
+
+}
+
+#section3 .chiffre2 h4 .aqua{
+    font-weight: normal;
+    color: aqua;
+}
+
+#section3 .chiffre2:hover{
+    box-shadow: 0px 0px 10px aqua;
+    margin-bottom: 5%;
+}
+
+
+
+#section3 .chiffre3 h4{
+    font-size: 60px;
+
+}
+
+#section3 .chiffre3 h4 .orange{
+    font-weight: normal;
+    color: orange;
+}
+
+#section3 .chiffre3:hover{
+    box-shadow: 0px 0px 10px orange;
+    margin-bottom: 5%;
+}
+
+
+
+#section3 .chiffre4 h4{
+    font-size: 60px;
+
+}
+
+#section3 .chiffre4 h4 .green{
+    font-weight: normal;
+    color: aqua;
+}
+
+#section3 .chiffre4:hover{
+    box-shadow: 0px 0px 10px #52BCA8;
+    margin-bottom: 5%;
+}
+
+
+/*--------------------------------- Section 4 ---------------------------------*/
+
+#section4 img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5%;
+}
+
+#section4 .shadow{
+    width: 30%;
+    margin-right: 3%;
+}
+
+
+/*--------------------------------- Section 5 ---------------------------------*/
+
+#section5{
+    background-color: #023128;
+    color: white;
+}
+
+#section5 i{
+    color: white;
+    background-color: #52BCA8;
+    padding: 7%;
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+
+#section5 h5{
+    margin-top: 10%;
+}
+
+#section5 p{
+    font-size: 13px;
+}
+
+#section5 .methode3{
+    margin-top: 2%;
+}
+#section5 .methode4{
+    margin-top: 5%;
+}
+#section5 .methode5{
+    margin-left: 14%;
+}
+#section5 .methode6{
+    margin-top: 3%;
+}
+#section5 .methode7{
+    margin-top: 6%;
+}
+
+/*--------------------------------- Section 6 ---------------------------------*/
+
+#section6 p{
+    margin-top: 4%;
+}
+
+#section6 .carte1{
+    border: 1px solid #52BCA8;
+    border-radius: 15px;
+    width: 30%;
+    margin-right: 2%;
+}
+
+#section6 .carte1 i{
+    font-size: 35px;
+    color: #52BCA8;
+}
+
+#section6 .carte2{
+    border: 1px solid red;
+    border-radius: 15px;
+    width: 30%;
+    margin-right: 2%;
+}
+
+#section6 .carte2 i{
+    font-size: 35px;
+    color: red;
+}
+
+#section6 .carte3{
+    border: 1px solid blue;
+    border-radius: 15px;
+    width: 30%;
+    margin-right: 2%;
+}
+
+#section6 .carte3 i{
+    font-size: 35px;
+    color: blue;
+}
+
+
+/*--------------------------------- Section Testimonials ---------------------------------*/
+
+#testimonial .texte{
+    font-size: 30px;
+}
+
+/*--------------------------------- Section Services ---------------------------------*/
+
+#service h3{
+    margin-top: 10%;
+
+}
+
+/*--------------------------------- Section Client ---------------------------------*/
+
+#client img{
+    border: 1px solid #52BCA8;
+    width: 100%;
+    height: 75%;
+    margin-top: 10%;
+}
+
+/*--------------------------------- Footer ---------------------------------*/
+
+footer{
+    background-image: url(images/bg-footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #063931;
+    color: white;
+}
+
+footer .sombre{
+    background-color: #02483bbf;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+}
+
+footer p{
+    margin-top: 5%;
+    font-weight: bold;
+    color: #9f9d9d;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+    line-height: 45px;
+}
+
+footer ul li{
+    font-weight: lighter;
+}
+
+footer i{
+    margin-right: 3%;
+}
+
+footer .icone i{
+    font-size: 30px;
+}
+
+/*---------------------------- PARTIE RESPONSIVE ----------------------------*/
+
+@media screen and (max-width: 768px) {
+    #section1 h1 {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    #section1 br{
+        display: none;
+    }
+
+    #section4 .shadow{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    #section5 .methode5{
+        margin-left: 0;
+    }
+
+    #section6 .carte1{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    #section6 .carte2{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    #section6 .carte3{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+}
