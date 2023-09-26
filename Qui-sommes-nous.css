@@ -1,0 +1,39 @@
+.mada{
+    background-color:#009688;
+
+}
+.mada1{
+
+    width: 60px;
+}
+.img{
+    width:290px;
+    height:360px;
+    border-radius: 10px;
+}
+.image{
+    width:270px;
+    height:200px;
+}
+.mi{
+    width:46px;
+    height:46px;
+    border-radius:60px;
+    background-color: white;
+}
+.mhd::after{
+    content: "";
+    height: 5px;
+    background-color: orange;
+    width: 20%;
+    display: block;
+    margin-top: 2%;
+}
+.mhd1::after{
+    content: "";
+    height: 5px;
+    background-color: orange;
+    width: 8%;
+    display: block;
+    margin-top: 1%;
+}
